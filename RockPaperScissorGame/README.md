@@ -1,5 +1,6 @@
 The game is a Rock-Paper-Scissors
-It has only two player: The user and computer
+It has only two player: The user and computer.
+
 Rock is greater than scissors
 Paper is greater than rock
 Scissors is greater than paper
