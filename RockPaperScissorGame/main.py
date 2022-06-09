@@ -5,7 +5,7 @@ def game():
   print("Enter P for PAPER, S for SCISSORS or R for ROCK\n")
   b = input("input r for rock, p for paper and s for scissors\n")
   while b not in ["P", "p", "R", "r", "S", "s"]:
-    print("enter P, R or S\n")
+    print("INALID INPUT: Enter P, R or S\n")
     b = input("input r for rock, p for paper and s for scissors\n")
   
   myList = ["rock", "paper", "scissors"]
@@ -51,7 +51,7 @@ def game():
 def repeatProgarm():
   again = input("\nDo you want to play again? enter Y for YES and N for NO\n")
   while again not in ["Y", "y", "N", "n"]:
-   print("enter Y or N\n")
+   print("INALID INPUT: Enter Y or N\n")
    again = input("Do you want to play again? enter Y for YES and N for NO\n")
    
   if again == "Y" or again == "y":
